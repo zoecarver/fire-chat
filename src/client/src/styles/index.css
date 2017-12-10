@@ -1,0 +1,39 @@
+.chat-box {
+  width: 70%;
+  margin: 10%;
+  margin-top: 0px;
+}
+input {
+  width: 80%;
+}
+/** , !span{
+  margin: 2%;
+}*/
+input, button {
+  margin: 2%;
+}
+br {
+  margin: 0.5%;
+  margin-left: 10%;
+}
+.messageBox {
+  margin: 0.5%;
+  margin-left: 10%;
+}
+.menu {
+  width: 5%;
+  height: 100%;
+}
+.main {
+  width: 95%;
+  height: 100%;
+  flex: 1;
+}
+.app {
+  display: flex;
+  width: 100%;
+}
+.subName {
+  margin: 2%;
+  margin-left: 5%;
+}

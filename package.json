@@ -1,0 +1,38 @@
+{
+  "name": "DOFire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec webpack",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@blueprintjs/core": "^1.33.0",
+    "babel-plugin-import": "^1.6.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "firebase": "^4.7.0",
+    "react-addons-update": "^15.6.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "url-loader": "^0.6.2"
+  }
+}
